@@ -1,15 +1,14 @@
 <?php
-  
+
  include 'includes/person.inc.php';
 
 ?>
 <?php
   
- $person1 = new Person();
- 
- $person1->setName("Hannah");
- echo $person1->name;
-
-
+ //object
+ $person3 = new Person("Poppy","Hazel",3);
+ echo $person3->name;
+ echo $person3->eyeColor;
+ echo $person3->age;
 
 ?>
